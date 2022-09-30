@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.imagenPrincipal {
+
+    height: 30vh;
+    width: 100vw;
+    background-image: url(Img/ba1.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+
+}
+.textoImagen{
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width:990px) {
+    .imagenPrincipal{
+        height: 95vh;
+    }
+
+    .
+    
+}
